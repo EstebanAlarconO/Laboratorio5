@@ -7,3 +7,4 @@ class Informacion(models.Model):
     so = models.CharField(max_length=255)
     version = models.CharField(max_length=255)
     contrasenia = models.CharField(max_length=255)
+    texto = models.CharField(max_length=2000)

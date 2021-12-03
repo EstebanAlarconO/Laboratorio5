@@ -18,14 +18,15 @@
           </a>
         </div>
       </div>
-    <div class="container" style="margin-top: 1cm;">
-        <table class="table table-bordered">
+    <div class="container-fluid" style="margin-top: 1cm;">
+        <table class="table table-bordered border-dark">
             <thead>
             <tr>
                 <th scope="col">IP</th>
                 <th scope="col">Sistema Operativo</th>
                 <th scope="col">Version</th>
                 <th scope="col">Contraseña</th>
+                <th scope="col" style="white-space: normal;">Texto</th>
             </tr>
             </thead>
             <tbody>
@@ -37,6 +38,7 @@
                 <td>{{inf.so}}</td>
                 <td>{{inf.version}}</td>
                 <td>{{inf.contrasenia}}</td>
+                <td style="white-space: normal;">{{inf.texto}}</td>
             </tr>
             {% endfor %}
             </tbody>
